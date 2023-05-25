@@ -44,13 +44,18 @@ def import_data(pth):
     print('START: import_data')
     try:
         data = pd.read_csv(pth, index_col=0)
+        assert data.shape[0] > 0 and data.shape[1] > 0
         logging.info("SUCCESS: File read in with %s rows", data.shape[0])
         print('END: import_data\n')
         return data
 
-    except FileNotFoundError as e:
-        logging.error("ERROR: Filepath invalid\n %s", e)
-        raise
+    except FileNotFoundError as err:
+        logging.error("ERROR: Filepath invalid\n %s", err)
+        raise err
+
+    except AssertionError as err:
+        logging.error("Testing import_data: The file doesn't appear to have rows and columns")
+        raise err
 
 
 def save_plot(plot, fp):
@@ -134,8 +139,12 @@ def encoder_helper(df):
     # Encode each categorical column
     for col in cat_columns:
         col_lst = []
-        # Calculate the mean Churn rate for each value in each colum
-        card_groups = df.groupby(col)[target_feat].mean()
+        # Calculate the mean Churn rate for each value in each column
+        try:
+            card_groups = df.groupby(col)[target_feat].mean()
+        except KeyError as err:
+            logging.info('%s feature not found in inputted dataframe', col)
+            raise err
 
         for val in df[col]:
             col_lst.append(card_groups.loc[val])
