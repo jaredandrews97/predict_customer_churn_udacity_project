@@ -1,0 +1,14 @@
+root - INFO - SUCCESS: File read in with 10127 rows
+root - INFO - Testing import_data: SUCCESS
+root - INFO - SUCCESS: EDA plots saved to file
+root - INFO - SUCCESS: test_eda successfully produced Churn Histogram file
+root - INFO - SUCCESS: test_eda successfully produced Customer Age Histogram file
+root - INFO - SUCCESS: test_eda successfully produced Marital Status Histogram file
+root - INFO - SUCCESS: test_eda successfully produced Total Transaction Histogram file
+root - INFO - SUCCESS: test_eda successfully produced Heatmap file
+root - INFO - Gender feature successfully encoded
+root - INFO - Education_Level feature successfully encoded
+root - INFO - Marital_Status feature successfully encoded
+root - INFO - Income_Category feature successfully encoded
+root - INFO - Card_Category feature successfully encoded
+root - INFO - SUCCESS: test_encoder_helper successfully returned encoded dataframe
