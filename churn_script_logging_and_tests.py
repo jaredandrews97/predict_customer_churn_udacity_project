@@ -1,5 +1,15 @@
 """
 Module to hold unit tests for churn functionality
+
+This module will be used to test
+    1. import_data
+    2. peform_eda
+    3. encode_data
+    4. perform_feature_engineering
+    5. train_test_model
+
+Author: Jared Andrews
+Date: 5/26/23
 """
 
 import os
