@@ -1,14 +1,15 @@
-root - INFO - SUCCESS: File read in with 10127 rows
-root - INFO - Testing import_data: SUCCESS
-root - INFO - SUCCESS: EDA plots saved to file
-root - INFO - SUCCESS: test_eda successfully produced Churn Histogram file
-root - INFO - SUCCESS: test_eda successfully produced Customer Age Histogram file
-root - INFO - SUCCESS: test_eda successfully produced Marital Status Histogram file
-root - INFO - SUCCESS: test_eda successfully produced Total Transaction Histogram file
-root - INFO - SUCCESS: test_eda successfully produced Heatmap file
-root - INFO - Gender feature successfully encoded
-root - INFO - Education_Level feature successfully encoded
-root - INFO - Marital_Status feature successfully encoded
-root - INFO - Income_Category feature successfully encoded
-root - INFO - Card_Category feature successfully encoded
-root - INFO - SUCCESS: test_encoder_helper successfully returned encoded dataframe
+test - INFO - Testing import_data: SUCCESS
+test - INFO - Testing import_data: SUCCESS, incorrect file path correctly threw error
+test - INFO - SUCCESS: test_eda successfully produced Churn Histogram file
+test - INFO - SUCCESS: test_eda successfully produced Customer Age Histogram file
+test - INFO - SUCCESS: test_eda successfully produced Marital Status Histogram file
+test - INFO - SUCCESS: test_eda successfully produced Total Transaction Histogram file
+test - INFO - SUCCESS: test_eda successfully produced Heatmap file
+test - INFO - SUCCESS: test_encoder_helper successfully returned encoded dataframe
+test - INFO - SUCCESS: test_perform_feature_engineering successfully returned train/test split dataframes
+test - INFO - SUCCESS: test_eda successfully produced Logistic Regression classifier model file
+test - INFO - SUCCESS: test_eda successfully produced Random Forest classifier mode file
+test - INFO - SUCCESS: test_eda successfully produced feature importance file
+test - INFO - SUCCESS: test_eda successfully produced Logistic Regression classifier classification report file
+test - INFO - SUCCESS: test_eda successfully produced Random Forest classifier classification report file
+test - INFO - SUCCESS: test_eda successfully produced ROC Curve file

@@ -1,0 +1,17 @@
+results - INFO - SUCCESS: File read in with 10127 rows
+results - INFO - SUCCESS: EDA plots saved to file
+results - INFO - Gender feature successfully encoded
+results - INFO - Education_Level feature successfully encoded
+results - INFO - Marital_Status feature successfully encoded
+results - INFO - Income_Category feature successfully encoded
+results - INFO - Card_Category feature successfully encoded
+results - INFO - SUCCESS: HP Tuning successfully completed for RFC
+results - INFO - SUCCESS: Training successfully completed for LRC
+results - INFO - SUCCESS: Train classification report successfully for Random Forest
+results - INFO - SUCCESS: Test classification report successfully for Random Forest
+results - INFO - SUCCESS: Train classification report successfully for Logistic Regression
+results - INFO - SUCCESS: Test classification report successfully for Logistic Regression
+results - INFO - SUCCESS: Feature importance plot saved to file
+results - INFO - SUCCESS: Logistic Regression ROC Curve successfully created
+results - INFO - SUCCESS: Random Forest ROC Curve successfully created
+results - INFO - SUCCESS: Model training and testing complete
