@@ -1,5 +1,8 @@
 """
 Module to store hard-coded constants used in churn_library
+
+Author: Jared Andrews
+Date: 5/26/23
 """
 import os
 
